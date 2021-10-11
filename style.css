@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-shape-color: linear-gradient(120deg, #343a4f, #0f1620);
+}
+
+.card-body {
+  overflow: hidden;
+  background-image: var(--bg-shape-color);
+}
+
+.checkoutButton {
+  display: flex;
+  width: 100%;
+  background-image: var(--bg-shape-color);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: -2px -2px 2px 0px rgba(80, 80, 80, 0.1),
+    2px 2px 3px 0px rgba(12, 12, 12, 0.3),
+    inset 0px 0px 0px 2px rgba(80, 80, 80, 0.2);
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.initial-marker {
+  width: 500px;
+  height: 800px;
+}
+
+.garansi {
+  background-color: rgba(255, 87, 34, 0.1);
+}
+
+.shopee-rating-stars__gold-star {
+  color: #ffce3d;
+  fill: #ffce3d;
+}
+
+.pengembalian {
+  border-top: 1.5px solid rgb(156, 152, 152);
+}
+
+._3coA6A > .icon-free-shipping-line,
+._3coA6A > .icon-shipping-airplane {
+  font-size: 1.25rem;
+  margin-left: 0.3125rem;
+  margin-right: 0.3125rem;
+  stroke: #000;
+}
